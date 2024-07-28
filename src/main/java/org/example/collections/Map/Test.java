@@ -13,7 +13,15 @@ public class Test {
         {
             reverse+=str.charAt(i);
         }
-        System.out.println(reverse);
+        //System.out.println(reverse);
+
+
+        String res="";
+        for(int i=str.length()-1;i>=0;i--)
+        {
+            res+=str.charAt(i);
+        }
+        System.out.println(res);
 //        char[] ch=str.toCharArray();
 //        Map<Character,Integer> count=new HashMap<>();
 //        for(char ch1:ch)

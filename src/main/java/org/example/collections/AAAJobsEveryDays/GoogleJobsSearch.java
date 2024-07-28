@@ -17,7 +17,7 @@ import java.util.Date;
 public class GoogleJobsSearch {
 
     public static void main(String[] args) {
-        String[] locations = {"Indore", "bhopal", "ahemdabad"}; // Specify your desired locations
+        String[] locations = {"Indore", "bhopal", "ahemdabad","remote","udaipur","jaipure"}; // Specify your desired locations
 
         // Create a directory based on the current date within the specified path
         String basePath = "/home/ahm-l-vikaspr/Resume/Jobs";

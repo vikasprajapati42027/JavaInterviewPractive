@@ -12,6 +12,7 @@ public class Sorting {
         list.add("vikas");
         Collections.sort(list,Collections.reverseOrder());
        // System.out.println(list);
+        Collections.sort(list,Collections.reverseOrder());
         Set<String> set=new LinkedHashSet<>(list);
        // System.out.println(set);
 

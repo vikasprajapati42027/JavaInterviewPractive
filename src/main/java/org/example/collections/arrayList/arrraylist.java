@@ -17,6 +17,11 @@ public class arrraylist {
         {
             System.out.println(it.next());
         }
+        Iterator it1=list.iterator();
+        while(it.hasNext())
+        {
+            System.out.println(it.next());
+        }
 
         Collections.sort(list);
         for(String s:list)
@@ -24,6 +29,7 @@ public class arrraylist {
             System.out.println(s);
         }
 
+        Collections.sort(list,Collections.reverseOrder());
         for(int i=0;i<list.size();i++)
         {
             System.out.println("Name is : "+list.get(i));

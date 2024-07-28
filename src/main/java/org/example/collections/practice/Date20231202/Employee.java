@@ -9,6 +9,9 @@ public class Employee  implements Serializable {
     private String name;
     private transient int age;
 
+    public Employee(int i, String vikas, String dev, int i1) {
+    }
+
     public int getId() {
         return id;
     }

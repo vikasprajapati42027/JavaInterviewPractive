@@ -6,13 +6,17 @@ import java.util.regex.Pattern;
 public class usingpatternmatternumber {
 
 
-    public static String removeNonNumber(String str)
+    public static boolean removeNonNumber(String str)
     {
         String regex="[0-9]";
         Pattern pattern=Pattern.compile(regex);
         Matcher matcher=pattern.matcher(str);
+        Pattern pattern2=Pattern.compile(regex);
+        Matcher matcher2=pattern2.matcher(str);
 
-        return matcher.replaceAll("");
+        return matcher2.find();
+
+        //return matcher.replaceAll("");
     }
 //    public static String
 //    removingNonNumericCharacters(String str)

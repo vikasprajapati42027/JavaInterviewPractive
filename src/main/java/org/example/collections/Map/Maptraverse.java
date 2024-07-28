@@ -9,7 +9,7 @@ public class Maptraverse {
         Map<String,Integer> map=new HashMap<>();
         map.put("vikas",1);
         map.put("prajapati",2);
-        Set<Map.Entry<String,Integer>> entrySet=map.entrySet();
+       // Set<Map.Entry<String,Integer>> entrySet=map.entrySet();
         for(Map.Entry entry:map.entrySet())
         {
           System.out.println("Name : " +entry.getKey()+ " "+entry.getValue());

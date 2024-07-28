@@ -10,6 +10,8 @@ public class leapYears {
         else {
             return 0;
         }
+
+
     }
     public static void main(String[] args) {
         int y=2020;
