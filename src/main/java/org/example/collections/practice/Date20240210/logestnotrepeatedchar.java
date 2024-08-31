@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class logestnotrepeatedchar {
     public static void main(String[] args) {
-        String str="abcabcdd";
+        String str="prajapati";
         int ss=0,ll=0;
         int i=0,j=0;
         int n=str.length();

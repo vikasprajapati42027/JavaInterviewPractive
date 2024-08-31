@@ -27,7 +27,7 @@ public class LogestSubstring {
     }
     public static void main(String[] args) {
     String input = "LongestSubstringFindOut";
-    System.out.println(logest(input).length());
+    System.out.println(logest(input));
 
     }
 }

@@ -18,7 +18,7 @@ import java.util.Date;
 public class GJS {
 
     public static void main(String[] args) {
-        String[] searchTerms = {"Java Developer", "BigData Engineer"};
+        String[] searchTerms = {"core java Developer"};
         String[] locations = {"Indore", "Bhopal", "Ahmedabad", "Remote", "Udaipur", "Jaipur","bangalore","hyderabad","PUNE"};
 
         String basePath = "/home/ahm-l-vikaspr/Resume/Jobs";

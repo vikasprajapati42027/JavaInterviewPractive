@@ -1,17 +1,11 @@
-package org.example.interviewtest;
+package org.example.collections.practice.DesignPattern;
 
-public class Test1 {
-
-//1
-// 23
-// 456
-// 78910
-
+public class Number_changing {
     public static void main(String[] args) {
-        int count=1;
-        for(int i=0;i<5;i++)
+        int count =1;
+        for(int i=1;i<=5;i++)
         {
-            for(int j=0;j<i;j++)
+            for(int j=1;j<=i;j++)
             {
                 System.out.print(count);
                 count++;

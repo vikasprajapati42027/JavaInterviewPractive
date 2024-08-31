@@ -10,7 +10,7 @@ public class StudentMain {
         list.add(st);
 
         list.forEach(a->System.out.println(a));
-     list.forEach(a->System.out.println(a));
+        list.forEach(a->System.out.println(a));
         for(Student s:list)
         {
             System.out.println(s.getId());
